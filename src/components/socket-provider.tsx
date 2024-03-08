@@ -15,7 +15,7 @@ const SocketContext = createContext<SocketContextType>({
 
 export const useSocket = () => { return useContext(SocketContext); };
 
-export const Socketprovider = ({children}: {children: React.ReactNode}) => {
+export const SocketProvider = ({children}: {children: React.ReactNode}) => {
     const [socket, setSocket] = useState<any | null>(null);
     const [isConnected, setIsConnected] = useState(false);
 

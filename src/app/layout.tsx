@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { socketProvider } from '@/components/socket-provider' //socketio에서 사용 하는 프로바이더
+import { SocketProvider } from '@/components/socket-provider' //socketio에서 사용 하는 프로바이더
 
 const inter = Inter({ subsets: ["latin"] });
 
